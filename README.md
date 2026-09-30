@@ -30,3 +30,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 This repository is used for GitHub project management practice.
  
 Author: Anniina Nae
+
+This project was updated using a feature branch.
