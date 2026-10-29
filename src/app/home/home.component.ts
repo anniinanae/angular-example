@@ -13,13 +13,11 @@ import { MatListModule } from '@angular/material/list';
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
-export class HomeComponent {
+export class HomeComponent{
   headerText = 'Testing Angular Applications';
 
   constructor(public router: Router) { }
 
-  ngOnInit(): void {
-  }
 
   showFeedbackPage(): void {
     this.router.navigate(['feedback']);
